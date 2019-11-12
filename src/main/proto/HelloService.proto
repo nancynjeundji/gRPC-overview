@@ -5,3 +5,15 @@ option java_multiple_files = true;
 package com.nancy.app.mygrpc
 
 
+//structure du message
+
+message HelloRequest {
+	String prenom = 1; //tag dans le payload pour cette structure, ce nombre (tag) est unique
+	String nom =2;
+}
+
+
+message HelloResponse {
+	String salutations = 1;
+}
+

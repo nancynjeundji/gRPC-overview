@@ -1,0 +1,7 @@
+//configuration de base
+
+syntax="proto3";
+option java_multiple_files = true;
+package com.nancy.app.mygrpc
+
+
